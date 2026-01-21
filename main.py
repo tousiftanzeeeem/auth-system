@@ -6,7 +6,7 @@ app = FastAPI()
 
 
 # Basic health check endpoint
-@app.get("/auth")
+@app.get("/authhealth")
 def health_check():
     return {"status": "ok\n"}
 
